@@ -24,7 +24,7 @@ class ReservationsController < ApplicationController
     end
   end
 
-  def
+  def destroy
     @accomodation.destroy
 
     redirect_to reservations_path
