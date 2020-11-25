@@ -23,4 +23,10 @@ class ReservationsController < ApplicationController
       render "new"
     end
   end
+
+  def
+    @accomodation.destroy
+
+    redirect_to reservations_path
+  end
 end
