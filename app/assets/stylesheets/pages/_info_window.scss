@@ -6,7 +6,7 @@
 }
 
 .accomodation-info-window > img {
-  height: 200px;
+  height: 120px;
   width: 100%;
   object-fit: cover;
 }
@@ -33,11 +33,10 @@
   position: relative;
 }
 
-.carousel-inner {
-
-}
 
 .mapboxgl-popup-content {
+  width: 350px !important;
+  height: 170px !important;
   padding: 0 !important;
   background: none !important;
 }
@@ -45,3 +44,4 @@
 .acc-price {
   display: none;
 }
+
